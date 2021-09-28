@@ -3,6 +3,7 @@ from g_python.gextension import Extension
 from g_python.hmessage import Direction, HMessage
 from g_python.hpacket import HPacket
 from g_python.htools import RoomUsers
+from time import sleep
 
 extension_info = {
     "title": "ConsoleBot",
@@ -43,6 +44,8 @@ def start():
  global current_value
  current_value = True
  console_bot.send_message("Click-mute is enabled.")
+ sleep(3)
+ console_bot.send_message("Please rejoin to your current room")
 
 def stop():
     global current_value
