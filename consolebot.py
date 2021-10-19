@@ -26,6 +26,7 @@ current_value = ''
 
 room_id = ''
 
+#used "click-kick" code for base, thanks to denio4321!
 
 def kick_user(message: HMessage):
     global room_id
