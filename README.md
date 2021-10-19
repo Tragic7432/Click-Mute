@@ -5,5 +5,5 @@ Commands: ":start" , ":stop" , ":exit"
 
 *you can edit the .py file to change mute duration.   (default is 99999 minutes)*
 
-# Install g-python
+# g-python required
 https://github.com/sirjonasxx/G-Python
