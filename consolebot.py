@@ -45,7 +45,7 @@ def start():
  current_value = True
  console_bot.send_message("Click-mute is enabled.")
  sleep(1)
- console_bot.send_message("Please rejoin to your current room if you havent.")
+ console_bot.send_message("Please rejoin to your current room.")
 
 def stop():
     global current_value
